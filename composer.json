@@ -1,0 +1,23 @@
+{
+        "name":        "kohenkatz/kohana-requirejs",
+        "minimum-stability": "dev",
+        "type":        "kohana-module",
+        "description": "A Kohana 3.x module for working with Require.js.",
+        "license":     "MIT",
+        "keywords":    ["kohana", "assets", "requirejs", "rjs", "commonjs", "amd"],
+        "support": {
+                "issues":   "https://github.com/kohenkatz/kohana-requirejs/issues",
+                "source":   "https://github.com/kohenkatz/kohana-requirejs"
+        },
+        "require": {
+                "composer/installers":         "~1.0",
+                "kohana/core":                 ">=3.3",
+                "php":                         ">=5.3.3",
+        },
+        "extra": {
+                "branch-alias": {
+                        "dev-3.3/develop": "3.3.x-dev",
+                        "dev-3.4/develop": "3.4.x-dev"
+                }
+        }
+}
